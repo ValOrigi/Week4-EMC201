@@ -9,7 +9,7 @@ public class Win : MonoBehaviour
     {
         if (trigger.gameObject.name == "Character")
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("WinScene");
         }
     }
 }
